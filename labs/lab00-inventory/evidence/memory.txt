@@ -1,0 +1,13 @@
+﻿PS> Get-CimInstance Win32_PhysicalMemory | Select-Object DeviceLocator, Manufacturer, PartNumber, @{n='GB';e={$_.Capacity/1GB}}, Speed, ConfiguredClockSpeed | Format-Table -AutoSize
+
+DeviceLocator        Manufacturer      PartNumber           GB Speed ConfiguredClockSpeed
+-------------        ------------      ----------           -- ----- --------------------
+Controller0-ChannelA Micron Technology 4ATF51264HZ-3G2J1     4  3200                 3200
+Controller1-ChannelA Micron Technology 4ATF51264HZ-3G2J1     4  3200                 3200
+
+PS> Get-CimInstance Win32_PhysicalMemoryArray | Select-Object MemoryDevices, @{n='MaxGB';e={$_.MaxCapacity/1MB}} | Format-List
+
+
+MemoryDevices : 2
+MaxGB         : 128
+

@@ -1,0 +1,813 @@
+﻿
+C:\Users\User\.VirtualBox\VBoxSVC.log:63:00:00:33.652094          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002)
+ aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (st
+ate is Restoring)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log:64:00:00:33.670091          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002)
+ aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (st
+ate is Restoring)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log:144:00:20:23.163061          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002
+) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (s
+tate is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log:146:00:20:23.177260          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002
+) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (s
+tate is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log:166:00:31:36.280230          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002
+) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (s
+tate is Snapshotting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log:167:00:31:36.281415          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002
+) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Cannot delete the current state of the
+ running machine (machine state: Snapshotting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log:210:00:34:04.148319          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002
+) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (s
+tate is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.1:129:00:29:39.944795          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.1:131:00:29:39.953329          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:57:00:00:01.244560          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:70:00:01:00.464668          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:93:00:02:15.029473          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:95:00:02:15.063504          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:98:00:02:50.009168          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:101:00:02:54.792112          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:115:00:02:58.129535          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:117:00:02:58.141046          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:121:00:02:58.306324          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:130:00:02:58.965067          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:134:00:03:08.837339          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:138:00:03:12.901974          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:143:00:21:17.628769          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:153:00:21:21.076631          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.2:156:00:21:22.091507          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:126:00:07:26.529606          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:136:00:10:30.163675          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:139:00:10:40.114770          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:142:00:10:45.808576          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:147:00:10:49.594381          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:148:00:10:49.601950          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:149:00:10:49.785355          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:153:00:10:49.853767          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:162:00:10:50.943980          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:166:00:10:53.807656          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:170:00:10:57.101387          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:174:00:11:01.628318          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:178:00:11:06.213173          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:182:00:11:10.914780          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:188:00:11:31.978775          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:194:00:11:32.271479          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:200:00:11:32.620647          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:206:00:11:32.958784          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:212:00:11:34.465652          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:217:00:38:19.485054          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:222:00:41:49.817855          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Saving)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:226:00:42:15.579168          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Aborted)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:239:00:44:00.783364          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:247:00:47:03.357061          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:257:00:47:22.528481          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:260:00:47:27.009018          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:263:00:47:31.706415          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:268:00:47:35.524467          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:269:00:47:35.535679          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:273:00:47:35.765984          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:282:00:47:36.582984          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:286:00:47:39.389036          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:290:00:47:39.702660          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:294:00:47:42.952597          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:298:00:47:45.675623          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:302:00:47:50.234649          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:306:00:48:09.501473          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:310:00:48:21.281206          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:314:00:48:21.338938          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:317:00:54:48.270396          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:324:00:58:33.780346          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.4:328:00:58:34.825514          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:54:00:00:01.388315          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:64:00:02:49.248377          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:67:00:03:01.122965          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:70:00:03:06.234093          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:84:00:03:09.297033          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (
+state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:86:00:03:09.310030          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:87:00:03:09.466213          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (
+state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:91:00:03:09.484985          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:100:00:03:10.339030          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:104:00:03:18.921757          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:108:00:03:21.908086          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:112:00:03:27.889291          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:116:00:03:55.889945          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:120:00:04:04.009186          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:124:00:08:05.896432          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:127:00:16:21.883833          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:141:00:17:37.978474          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:144:00:17:39.016332          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:147:00:17:44.940314          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:150:00:17:50.186471          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:155:00:17:54.145441          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:156:00:17:54.159429          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:160:00:17:54.373239          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:169:00:17:55.069157          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:174:00:18:05.098745          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:176:00:18:06.573343          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:182:00:18:09.283107          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:186:00:18:10.812523          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:190:00:18:12.711426          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:194:00:18:22.746024          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:199:00:19:12.680345          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:202:00:19:16.785488          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:205:00:19:21.173247          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:209:00:19:23.464628          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:211:00:19:23.478611          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:212:00:19:23.582669          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:216:00:19:23.604164          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:225:00:19:24.412316          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:229:00:19:31.651753          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:233:00:19:35.909319          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:237:00:19:48.847345          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:243:00:20:06.798946          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:249:00:25:03.412433          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:254:00:28:05.954895          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:259:00:28:58.299678          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Saving)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:281:00:36:18.324753          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Aborted)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:294:00:36:42.220574          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:304:00:36:51.638617          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:308:00:36:55.159396          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:313:00:37:09.672984          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:316:00:37:16.842880          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:319:00:37:21.587108          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:327:00:37:25.146076          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:333:00:37:26.607627          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Aborted)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:345:00:37:45.167188          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:353:00:40:20.189040          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:363:00:40:28.982772          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:367:00:40:31.942815          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:372:00:40:58.665258          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:375:00:41:01.796754          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:378:00:41:06.208670          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:383:00:41:09.165524          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:384:00:41:09.175195          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:385:00:41:09.307371          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:389:00:41:09.324712          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:398:00:41:10.214893          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:402:00:41:13.001624          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:406:00:41:13.308907          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:410:00:41:17.434581          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:414:00:41:20.831752          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:418:00:41:23.033040          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:424:00:42:06.791596          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:430:00:42:07.097729          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:436:00:42:07.451146          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:442:00:42:07.766753          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:448:00:42:08.825461          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:450:00:42:08.878260          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:457:00:43:04.881626          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:461:00:43:09.092210          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:472:00:43:12.701999          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:476:00:43:12.764350          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:485:00:43:12.929870          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:492:00:43:13.167990          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:494:00:43:13.193607          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:498:00:43:13.416382          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:504:00:43:45.679312          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:507:00:51:37.489555          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:515:00:52:19.073603          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:518:00:52:21.081670          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:530:00:52:28.577610          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:545:00:54:55.427202          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:555:00:55:03.475314          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:559:00:55:06.460914          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:564:00:55:19.009508          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:567:00:55:20.772041          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:570:00:55:25.466814          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:575:00:55:28.675541          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:576:00:55:28.686298          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:577:00:55:28.821124          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:581:00:55:28.841696          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:590:00:55:29.728993          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:594:00:55:36.592554          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:598:00:55:39.734241          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:602:00:55:46.846532          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:606:00:55:58.790436          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:610:00:56:03.529122          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:614:00:56:03.593284          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:635:01:06:48.657549          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:641:01:07:06.148129          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:647:01:16:59.449223          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:653:01:17:05.713626          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:676:01:32:55.243522          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:685:01:33:35.072186          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:688:01:33:36.515513          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:691:01:33:42.632433          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:694:01:33:47.913239          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:699:01:33:51.380570          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:700:01:33:51.389132          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:701:01:33:51.533172          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:710:01:33:52.403576          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:720:01:36:03.373665          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:726:01:36:25.666844          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:729:01:36:27.180231          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:733:01:36:35.670318          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:738:01:37:07.403383          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:742:01:37:11.465910          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:747:01:37:37.915303          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:750:01:37:41.149058          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:753:01:37:46.115704          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:758:01:37:49.710544          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:759:01:37:49.714883          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:768:01:37:50.614242          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:771:01:38:11.139393          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:779:01:38:28.405265          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:782:01:38:29.437729          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:785:01:38:34.195020          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:788:01:38:38.412714          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:792:01:38:40.602889          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:794:01:38:40.622422          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:795:01:38:40.722711          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:804:01:38:41.472725          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:807:01:38:54.246618          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:814:01:39:21.323136          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.5:817:01:39:22.335139          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.6:56:00:00:01.178793          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:56:00:00:02.075554          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:76:00:16:35.198747          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:79:00:16:44.914330          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:82:00:16:50.011739          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:86:00:16:53.873982          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (
+state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:88:00:16:53.888461          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:89:00:16:54.065810          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (
+state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:93:00:16:54.084594          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:102:00:16:54.830453          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:106:00:16:57.665628          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:108:00:17:25.415853          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:116:00:17:29.372194          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:120:00:17:30.402240          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.7:132:00:17:38.497766          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:59:00:02:29.536698          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:61:00:02:29.573009          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:64:00:04:57.627684          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:69:00:05:06.306604          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:76:00:05:15.125645          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:84:00:08:00.063323          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:86:00:08:00.458982          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (
+state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:88:00:08:00.537940          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:97:00:08:01.698344          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb000
+2) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or run
+ning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:101:00:08:01.955137          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:105:00:08:06.940850          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:109:00:08:09.569805          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:113:00:08:15.842891          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:116:00:08:29.456342          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:124:00:08:32.065672          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:127:00:08:33.098333          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:130:00:08:33.959370          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:133:00:08:40.834374          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:137:00:08:48.738147          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:139:00:08:48.801450          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:140:00:08:48.863004          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:144:00:08:48.893301          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:153:00:08:49.713223          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:157:00:08:49.954507          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:161:00:08:54.961362          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:165:00:08:57.589384          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:168:00:09:01.204932          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:175:00:09:02.680706          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:177:00:09:03.676382          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:180:00:09:04.739352          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:183:00:09:11.086160          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:187:00:09:18.933922          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:189:00:09:19.012579          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:190:00:09:19.092498          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved 
+(state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:194:00:09:19.131622          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Starting)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:203:00:09:19.974527          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:207:00:09:20.219734          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:211:00:09:25.235336          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:215:00:09:27.847834          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:219:00:09:34.501686          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:223:00:09:36.987122          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:227:00:15:56.251656          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Running)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:230:00:16:00.530533          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is Paused)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:236:00:16:01.668236          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+C:\Users\User\.VirtualBox\VBoxSVC.log.8:239:00:16:02.724262          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb00
+02) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or ru
+nning (state is PoweredOff)}, preserve=false aResultDetail=0
+
+

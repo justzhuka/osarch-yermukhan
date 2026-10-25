@@ -1,0 +1,13 @@
+﻿PS> Get-PhysicalDisk | Select-Object FriendlyName, MediaType, BusType, @{n='SizeGB';e={[math]::Round($_.Size/1GB,1)}} | Format-Table -AutoSize
+
+FriendlyName             MediaType BusType SizeGB
+------------             --------- ------- ------
+NVMe INTEL SSDPEKNU512GZ SSD       RAID     476,9
+
+PS> Get-Volume | Where-Object DriveLetter | Select-Object DriveLetter, FileSystem, @{n='SizeGB';e={[math]::Round($_.Size/1GB,1)}}, @{n='FreeGB';e={[math]::Round($_.SizeRemaining/1GB,1)}} | Format-Table -AutoSize
+
+DriveLetter FileSystem SizeGB FreeGB
+----------- ---------- ------ ------
+          C NTFS        150,5   21,6
+          D NTFS        325,8  314,7
+

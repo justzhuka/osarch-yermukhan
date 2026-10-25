@@ -1,0 +1,8 @@
+﻿PS> Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed | Format-List
+
+
+Name                      : 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz
+NumberOfCores             : 4
+NumberOfLogicalProcessors : 8
+MaxClockSpeed             : 3110
+

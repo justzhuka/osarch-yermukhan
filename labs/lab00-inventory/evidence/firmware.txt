@@ -1,0 +1,10 @@
+﻿PS> $env:firmware_type
+UEFI
+
+PS> Get-CimInstance Win32_BIOS | Select-Object Manufacturer, SMBIOSBIOSVersion, ReleaseDate | Format-List
+
+
+Manufacturer      : American Megatrends International, LLC.
+SMBIOSBIOSVersion : X3500PH.302
+ReleaseDate       : 08.08.2022 5:00:00
+
