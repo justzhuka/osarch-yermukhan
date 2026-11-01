@@ -1,0 +1,50 @@
+=== Host: DESKTOP-3BUM2A8 (MAXSUN MS-Challenger A620A 2.5G, Windows 11 Pro 10.0.26300) ===
+Collected with Windows PowerShell; raw output from Lab 0 evidence files (cpu.txt, memory.txt, disk.txt, firmware.txt, virtualization.txt, hypervisor.txt) and systeminfo.
+
+--- CPU: Get-CimInstance Win32_Processor ---
+Name                      : AMD Ryzen 7 7700 8-Core Processor
+NumberOfCores             : 8
+NumberOfLogicalProcessors : 16
+
+--- Memory modules: Get-CimInstance Win32_PhysicalMemory ---
+Manufacturer DeviceLocator CapacityGB Speed ConfiguredClockSpeed
+------------ ------------- ---------- ----- --------------------
+Unknown      DIMM 0                16  4800                 5600
+Unknown      DIMM 0                16  4800                 5600
+
+--- Memory totals: systeminfo (Russian-locale output, field names translated to English) ---
+Total Physical Memory:      31,863 MB
+Available Physical Memory:  18,998 MB
+Virtual Memory: Max Size:   35,831 MB
+Virtual Memory: Available:  19,312 MB
+Virtual Memory: In Use:     16,519 MB
+
+--- Physical disks: Get-PhysicalDisk ---
+FriendlyName            MediaType  SizeGB
+------------            ---------  ------
+HS-SSD-FUTURE Pro 2048G SSD       1907,73
+ST2000DM008-2UB102      HDD       1863,02
+
+--- Volumes and free space: Get-Volume ---
+DriveLetter FileSystemLabel  SizeGB  FreeGB
+----------- ---------------  ------  ------
+          C                 1906,73 1064,15
+          D                    1863 1862,84
+
+--- Firmware: Get-ComputerInfo / Get-CimInstance Win32_BIOS ---
+BiosFirmwareType  : Uefi
+Manufacturer      : American Megatrends International, LLC.
+SMBIOSBIOSVersion : B3.9D
+ReleaseDate       : 13.02.2025
+
+--- Virtualization: Get-CimInstance Win32_Processor ---
+VMMonitorModeExtensions                 : False
+VirtualizationFirmwareEnabled           : True
+SecondLevelAddressTranslationExtensions : False
+
+--- Hypervisor: Get-CimInstance Win32_ComputerSystem ---
+HypervisorPresent : True
+
+--- systeminfo (Russian-locale output, translated to English) ---
+Virtualization-based security:  Status: Running
+Hyper-V Requirements:           A hypervisor has been detected. Features required for Hyper-V will not be displayed.

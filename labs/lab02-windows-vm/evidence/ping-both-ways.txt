@@ -1,0 +1,83 @@
+=== 1. Linux (10.0.2.3) -> Windows (10.0.2.15), BEFORE firewall rule: blocked ===
+tima@tima:~$ ping -c 4 10.0.2.15 | tee ping-linux-to-win-blocked.txt
+PING 10.0.2.15 (10.0.2.15) 56(84) bytes of data.
+
+--- 10.0.2.15 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3136ms
+
+
+=== 2. Windows firewall fix (Windows guest, PowerShell as Administrator) ===
+PS> New-NetFirewallRule -DisplayName "Allow ICMPv4 Echo In" -Protocol ICMPv4 -IcmpType 8 -Direction Inbound -Action Allow -Profile Any
+(rule details: see firewall-rule.txt)
+
+
+=== 3. Linux (10.0.2.3) -> Windows + internet, AFTER firewall rule ===
+tima@tima:~$ ping -c 4 10.0.2.15 | tee ping-linux.txt
+tima@tima:~$ ping -c 4 8.8.8.8 | tee -a ping-linux.txt
+tima@tima:~$ ping -c 4 google.com | tee -a ping-linux.txt
+PING 10.0.2.15 (10.0.2.15) 56(84) bytes of data.
+64 bytes from 10.0.2.15: icmp_seq=1 ttl=128 time=0.241 ms
+64 bytes from 10.0.2.15: icmp_seq=2 ttl=128 time=0.246 ms
+64 bytes from 10.0.2.15: icmp_seq=3 ttl=128 time=0.310 ms
+64 bytes from 10.0.2.15: icmp_seq=4 ttl=128 time=0.269 ms
+
+--- 10.0.2.15 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3167ms
+rtt min/avg/max/mdev = 0.241/0.266/0.310/0.027 ms
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=116 time=88.4 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=116 time=88.5 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=116 time=88.2 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=116 time=88.7 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3104ms
+rtt min/avg/max/mdev = 88.188/88.435/88.650/0.165 ms
+PING google.com (142.251.110.102) 56(84) bytes of data.
+64 bytes from bz-in-f102.1e100.net (142.251.110.102): icmp_seq=1 ttl=112 time=87.3 ms
+64 bytes from bz-in-f102.1e100.net (142.251.110.102): icmp_seq=2 ttl=112 time=86.5 ms
+64 bytes from bz-in-f102.1e100.net (142.251.110.102): icmp_seq=3 ttl=112 time=86.8 ms
+64 bytes from bz-in-f102.1e100.net (142.251.110.102): icmp_seq=4 ttl=112 time=87.2 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 13261ms
+rtt min/avg/max/mdev = 86.529/86.958/87.309/0.306 ms
+
+
+=== 4. Windows (10.0.2.15) -> Linux + internet ===
+PS C:\Users\Tima\Desktop> ping -n 4 10.0.2.3 | Tee-Object ping-windows.txt
+>> ping -n 4 8.8.8.8 | Tee-Object ping-windows.txt -Append
+>> ping -n 4 google.com | Tee-Object ping-windows.txt -Append
+
+Pinging 10.0.2.3 with 32 bytes of data:
+Reply from 10.0.2.3: bytes=32 time<1ms TTL=64
+Reply from 10.0.2.3: bytes=32 time<1ms TTL=64
+Reply from 10.0.2.3: bytes=32 time<1ms TTL=64
+Reply from 10.0.2.3: bytes=32 time<1ms TTL=64
+
+Ping statistics for 10.0.2.3:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=87ms TTL=116
+Reply from 8.8.8.8: bytes=32 time=88ms TTL=116
+Reply from 8.8.8.8: bytes=32 time=89ms TTL=116
+Reply from 8.8.8.8: bytes=32 time=88ms TTL=116
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 87ms, Maximum = 89ms, Average = 88ms
+
+Pinging google.com [142.251.110.101] with 32 bytes of data:
+Reply from 142.251.110.101: bytes=32 time=83ms TTL=112
+Reply from 142.251.110.101: bytes=32 time=84ms TTL=112
+Reply from 142.251.110.101: bytes=32 time=84ms TTL=112
+Reply from 142.251.110.101: bytes=32 time=86ms TTL=112
+
+Ping statistics for 142.251.110.101:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 83ms, Maximum = 86ms, Average = 84ms

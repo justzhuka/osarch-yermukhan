@@ -1,0 +1,21 @@
+tima@tima:~$ stress-ng --vm 2 --vm-bytes 7G --timeout 180s
+stress-ng: info:  [1806] setting to a 3 mins run per stressor
+stress-ng: info:  [1806] dispatching hogs: 2 vm
+stress-ng: info:  [1807] vm: using 3.50GB per stressor instance (total 7GB of 14.12GB available memory)
+stress-ng: debug: [1810] caught SIGILL, address 0x00005ab55912e196 (ILL_ILLOPN)
+stress-ng: debug: [1810] stress-ng: info: 0x00005ab55912e190: 73 01 c5 d9 ef e4<62>e1 fd 48 6f 2d e0 7f 1b 00
+stress-ng: debug: [1810] stress-ng: info: 0x00005ab55912e1a0: 49 89 f0 62 e1 fd 48 6f 25 13 80 1b 00 49 c1 e8
+stress-ng: debug: [1810] stress-ng: info: 0x00005ab55912e1b0: 06 62 f1 fd 48 7f 64 24 53 49 c1 e0 0c 62 f1 fd
+stress-ng: debug: [1810] stress-ng: info: 5ab558304000-5ab559264000 r-xp 00061000 fc:00 545061 /usr/bin/stress-ng
+stress-ng: error: [1806] vm: [1808] terminated with an error, exit status=2 (stressor failed)
+stress-ng: debug: [1809] caught SIGILL, address 0x00005ab55912e196 (ILL_ILLOPN)
+stress-ng: debug: [1809] stress-ng: info: 0x00005ab55912e190: 73 01 c5 d9 ef e4<62>e1 fd 48 6f 2d e0 7f 1b 00
+stress-ng: debug: [1809] stress-ng: info: 0x00005ab55912e1a0: 49 89 f0 62 e1 fd 48 6f 25 13 80 1b 00 49 c1 e8
+stress-ng: debug: [1809] stress-ng: info: 0x00005ab55912e1b0: 06 62 f1 fd 48 7f 64 24 53 49 c1 e0 0c 62 f1 fd
+stress-ng: debug: [1809] stress-ng: info: 5ab558304000-5ab559264000 r-xp 00061000 fc:00 545061 /usr/bin/stress-ng
+stress-ng: error: [1806] vm: [1807] terminated with an error, exit status=2 (stressor failed)
+stress-ng: info:  [1806] skipped: 0
+stress-ng: info:  [1806] passed: 0
+stress-ng: info:  [1806] failed: 2: vm (2)
+stress-ng: info:  [1806] metrics untrustworthy: 0
+stress-ng: info:  [1806] unsuccessful run completed in 20.36 secs
