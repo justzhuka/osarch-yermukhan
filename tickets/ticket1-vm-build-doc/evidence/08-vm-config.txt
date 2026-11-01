@@ -1,0 +1,46 @@
+7.2.22r175245
+Name:         NatNetwork
+Network:      10.0.2.0/24
+Gateway:      10.0.2.1
+DHCP Server:  Yes
+IPv6:         No
+IPv6 Prefix:  fd17:625c:f037:2::/64
+IPv6 Default: No
+
+UUID:           74aecd56-94fc-4477-9d9f-3b7cdd805d8d
+Parent UUID:    base
+State:          locked write
+Type:           normal (base)
+Location:       C:\Users\123\VirtualBox VMs\ubuntu-server\ubuntu-server.vdi
+Storage format: VDI
+Capacity:       25600 MBytes
+Encryption:     disabled
+
+UUID:           9fe3ef36-cf94-40a3-82b1-0ac5756a2ad1
+Parent UUID:    base
+State:          locked write
+Type:           normal (base)
+Location:       C:\Users\123\VirtualBox VMs\win11\win11.vdi
+Storage format: VDI
+Capacity:       65536 MBytes
+Encryption:     disabled
+
+===== ubuntu-server =====
+
+Name:                        ubuntu-server
+Guest OS:                    Ubuntu (64-bit)
+Memory size:                 2048MB
+Firmware:                    BIOS
+Number of CPUs:              2
+NIC 1:                       MAC: 08002790A183, Attachment: NAT Network 'NatNetwork', Cable connected: on, Trace: off (
+file: none), Type: 82540EM, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+===== win11 =====
+Name:                        win11
+Guest OS:                    Windows 11 (64-bit)
+Memory size:                 8192MB
+Firmware:                    EFI
+Number of CPUs:              4
+NIC 1:                       MAC: 0800275C46FD, Attachment: NAT Network 'NatNetwork', Cable connected: on, Trace: off (
+file: none), Type: 82540EM, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+
+

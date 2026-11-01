@@ -1,0 +1,65 @@
+===== from ubuntu-server (10.0.2.3), run via ssh from the host =====
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=116 time=88.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=116 time=88.2 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=116 time=87.3 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=116 time=88.5 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 5474ms
+rtt min/avg/max/mdev = 87.294/88.081/88.473/0.462 ms
+
+PING 10.0.2.15 (10.0.2.15) 56(84) bytes of data.
+64 bytes from 10.0.2.15: icmp_seq=1 ttl=128 time=0.263 ms
+64 bytes from 10.0.2.15: icmp_seq=2 ttl=128 time=0.284 ms
+64 bytes from 10.0.2.15: icmp_seq=3 ttl=128 time=0.264 ms
+64 bytes from 10.0.2.15: icmp_seq=4 ttl=128 time=0.253 ms
+
+--- 10.0.2.15 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3401ms
+rtt min/avg/max/mdev = 0.253/0.266/0.284/0.011 ms
+===== from win11 (10.0.2.15), cmd, copied via shared clipboard =====
+
+C:\Users\Tima>ver
+
+Microsoft Windows [Version 10.0.26300.9711]
+
+C:\Users\Tima>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::3079:5b3d:8cef:890f%13
+   IPv4 Address. . . . . . . . . . . : 10.0.2.15
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.0.2.1
+
+C:\Users\Tima>ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=88ms TTL=116
+Reply from 8.8.8.8: bytes=32 time=88ms TTL=116
+Reply from 8.8.8.8: bytes=32 time=88ms TTL=116
+Reply from 8.8.8.8: bytes=32 time=88ms TTL=116
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 88ms, Maximum = 88ms, Average = 88ms
+
+C:\Users\Tima>ping 10.0.2.3
+
+Pinging 10.0.2.3 with 32 bytes of data:
+Reply from 10.0.2.3: bytes=32 time<1ms TTL=64
+Reply from 10.0.2.3: bytes=32 time<1ms TTL=64
+Reply from 10.0.2.3: bytes=32 time<1ms TTL=64
+Reply from 10.0.2.3: bytes=32 time<1ms TTL=64
+
+Ping statistics for 10.0.2.3:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms

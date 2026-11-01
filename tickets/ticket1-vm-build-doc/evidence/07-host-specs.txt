@@ -1,0 +1,23 @@
+
+
+Name                      : AMD Ryzen 7 7700 8-Core Processor              
+NumberOfLogicalProcessors : 16
+
+
+
+RAM GB: 31
+
+Name FreeGB
+---- ------
+C       948
+D      1863
+
+
+VDI on disk:
+
+Name              SizeGB
+----              ------
+ubuntu-server.vdi    6,6
+win11.vdi           26,1
+
+

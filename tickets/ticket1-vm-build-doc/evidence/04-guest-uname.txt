@@ -1,0 +1,25 @@
+ Static hostname: tima
+       Icon name: computer-vm
+         Chassis: vm ЁЯЦ┤
+      Machine ID: de45e06c937443b9a933860a0f76e68e
+         Boot ID: b7e86b6c3c384b6d975d12d095260d6b
+  Virtualization: oracle
+Operating System: Ubuntu 26.04.1 LTS
+          Kernel: Linux 7.0.0-42-generic
+    Architecture: x86-64
+ Hardware Vendor: innotek GmbH
+  Hardware Model: VirtualBox
+Hardware Version: 1.2
+Firmware Version: VirtualBox
+   Firmware Date: Fri 2006-12-01
+    Firmware Age: 19y 11month 1d
+
+Linux tima 7.0.0-42-generic #42-Ubuntu SMP PREEMPT_DYNAMIC Thu Oct 15 08:06:44 UTC 2026 x86_64 GNU/Linux
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    altname enx08002790a183
+    inet 10.0.2.3/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
+       valid_lft 525sec preferred_lft 525sec
