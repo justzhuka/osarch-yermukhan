@@ -1,14 +1,19 @@
 # osarch-yermukhan
 Operating System Architecture labs, Innotech University · Temirlan Yermukhan
 
+## Labs
+
 | Lab | Topic | Status |
 |---|---|---|
 | [Lab 0](labs/lab00-inventory) | Inventory your own machine | submitted 25.10.2026 |
 | [Lab 1](labs/lab01-first-vm) | Your first virtual machine | submitted 25.10.2026 |
 | [Lab 2](labs/lab02-windows-vm/) | A Windows guest, and a network between them | submitted 01.11.2026 |
+
+## Tickets
+
 | Ticket | Topic | Status |
 |---|---|---|
-| [Ticket 1](tickets/ticket1-vm-build-doc/) | New developer needs a test machine — build document | submitted DD.MM.2026 |
+| [Ticket 1](tickets/ticket1-vm-build-doc/) | New developer needs a test machine — build document | submitted 01.11.2026 |
 
 ## Use of AI assistants
 
