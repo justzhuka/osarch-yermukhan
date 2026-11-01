@@ -3,7 +3,7 @@
 > **Credit.** The two virtual machines this ticket documents (`win11`, `ubuntu-server`, NatNetwork) were built in
 > [Lab 2](../../labs/lab02-windows-vm/), which I did in a pair with **Imanbayeva Daiana** (I was the driver for the first half).
 > The evidence linked from `../../labs/lab02-windows-vm/` comes from that joint work.
-> This ticket — the report, BUILD.md, the new evidence in `evidence/` and the screenshots — is my individual submission.
+> This ticket — the report, BUILD.md, the new evidence in `evidence/` and the screenshots — are our submission.
 
 ## 1. What was asked
 
