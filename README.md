@@ -21,4 +21,3 @@ Operating System Architecture labs, Innotech University · Temirlan Yermukhan
 | Where | Tool | What for |
 |---|---|---|
 | Ticket 1 | Claude (Anthropic) | Drafting the structure and wording of README.md and BUILD.md, suggesting PowerShell commands to collect evidence as text. All settings, measurements and evidence come from my own machines; every step was re-checked against my VirtualBox 7.2 screen. |
-| Lab 3 | Claude (Anthropic) | Looking up the ten parts on the makers' spec pages and drafting the captions, writing the three spec-collection scripts (Windows, Linux, macOS), drafting README.md, and taking the screenshots of the makers' pages in `evidence/photos/`. The scripts were run by me on my laptop and in my Ubuntu VM; `windows-specs.txt` and `linux-specs.txt` are their raw output. |
