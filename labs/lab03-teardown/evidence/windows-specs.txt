@@ -1,0 +1,89 @@
+Lab 3 -- Windows specs
+Collected: 2026-11-04 17:26:54 +05:00
+PowerShell version: 5.1.26100.9711
+
+==================== System ====================
+
+PS> Get-CimInstance Win32_OperatingSystem | Format-List Caption, Version, OSArchitecture
+
+
+Caption        : Майкрософт Windows 11 Pro
+Version        : 10.0.26200
+OSArchitecture : 64-разрядная
+
+PS> Get-CimInstance Win32_ComputerSystem | Format-List Name, Manufacturer, Model, HypervisorPresent
+
+
+Name              : MACHCREATOR
+Manufacturer      : Machcreator
+Model             : L16A
+HypervisorPresent : False
+
+==================== CPU ====================
+
+PS> Get-CimInstance Win32_Processor | Format-List Name, Manufacturer, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed, SocketDesignation, VirtualizationFirmwareEnabled
+
+
+Name                          : AMD Ryzen 7 7735HS with Radeon Graphics        
+Manufacturer                  : AuthenticAMD
+NumberOfCores                 : 8
+NumberOfLogicalProcessors     : 16
+MaxClockSpeed                 : 3201
+SocketDesignation             : FP7
+VirtualizationFirmwareEnabled : True
+
+PS> $env:NUMBER_OF_PROCESSORS
+16
+
+PS> wmic cpu get Name,NumberOfCores,NumberOfLogicalProcessors
+[error] Имя "wmic" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+
+==================== Memory ====================
+
+PS> Get-CimInstance Win32_ComputerSystem | Format-List @{n="TotalPhysicalMemory_bytes";e={$_.TotalPhysicalMemory}}, @{n="TotalPhysicalMemory_GiB";e={[math]::Round($_.TotalPhysicalMemory/1GB,2)}}
+
+
+TotalPhysicalMemory_bytes : 16372080640
+TotalPhysicalMemory_GiB   : 15.25
+
+PS> Get-CimInstance Win32_PhysicalMemory | Format-Table BankLabel, DeviceLocator, Manufacturer, PartNumber, @{n="GiB";e={$_.Capacity/1GB}}, Speed, ConfiguredClockSpeed, SMBIOSMemoryType -AutoSize
+
+BankLabel    DeviceLocator Manufacturer      PartNumber           GiB Speed ConfiguredClockSpeed SMBIOSMemoryType
+---------    ------------- ------------      ----------           --- ----- -------------------- ----------------
+P0 CHANNEL A DIMM 0        Micron Technology MT62F1G32D2DS-026 WT   4  6400                 6400               35
+P0 CHANNEL B DIMM 0        Micron Technology MT62F1G32D2DS-026 WT   4  6400                 6400               35
+P0 CHANNEL C DIMM 0        Micron Technology MT62F1G32D2DS-026 WT   4  6400                 6400               35
+P0 CHANNEL D DIMM 0        Micron Technology MT62F1G32D2DS-026 WT   4  6400                 6400               35
+
+PS> Get-CimInstance Win32_PhysicalMemory | Measure-Object -Property Capacity -Sum | Format-List @{n="Modules";e={$_.Count}}, @{n="TotalGiB";e={$_.Sum/1GB}}
+
+
+Modules  : 4
+TotalGiB : 16
+
+PS> Get-CimInstance Win32_PhysicalMemoryArray | Format-List MemoryDevices, @{n="MaxCapacity_GiB";e={$_.MaxCapacityEx/1MB}}
+
+
+MemoryDevices   : 4
+MaxCapacity_GiB : 64
+
+PS> wmic memorychip get BankLabel,Capacity,Speed,PartNumber
+[error] Имя "wmic" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+
+==================== Disk ====================
+
+PS> Get-PhysicalDisk | Format-Table DeviceId, FriendlyName, MediaType, BusType, @{n="SizeGB";e={[math]::Round($_.Size/1GB,1)}} -AutoSize
+
+DeviceId FriendlyName      MediaType BusType             SizeGB
+-------- ------------      --------- -------             ------
+0        SSSTC CL6-8D1024  SSD       NVMe                 953.9
+1        Msft Virtual Disk SSD       File Backed Virtual      0
+
+PS> Get-Volume | Where-Object DriveLetter | Format-Table DriveLetter, FileSystemLabel, FileSystem, @{n="SizeGB";e={[math]::Round($_.Size/1GB,1)}}, @{n="FreeGB";e={[math]::Round($_.SizeRemaining/1GB,1)}} -AutoSize
+
+DriveLetter FileSystemLabel FileSystem SizeGB FreeGB
+----------- --------------- ---------- ------ ------
+          C Windows         NTFS        952.5  371.8
+
+PS> wmic diskdrive get Model,InterfaceType,MediaType,Size
+[error] Имя "wmic" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
