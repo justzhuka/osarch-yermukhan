@@ -17,6 +17,7 @@ Operating System Architecture labs, Innotech University · Temirlan Yermukhan
 | Ticket | Topic | Status |
 |---|---|---|
 | [Ticket 1](tickets/ticket1-vm-build-doc/) | New developer needs a test machine — build document | submitted 01.11.2026 |
+| [Ticket 2](tickets/ticket2-office-spec/) | Kitting out the new office (hardware spec) | submitted 21.11.2026 |
 
 ## Use of AI assistants
 
@@ -25,3 +26,4 @@ Operating System Architecture labs, Innotech University · Temirlan Yermukhan
 | Ticket 1 | Claude (Anthropic) | Drafting the structure and wording of README.md and BUILD.md, suggesting PowerShell commands to collect evidence as text. All settings, measurements and evidence come from my own machines; every step was re-checked against my VirtualBox 7.2 screen. |
 | Lab 5 | Claude (Anthropic) | Suggesting diagnosis commands (file, xxd, iconv), writing fix.sh / fix.ps1 and the screenshot script, drafting README.md. The file, hex dumps, iconv results and all three screenshots come from my own machine and Ubuntu guest; the KZ-1048 diagnosis was checked against the bytes in hexdump-before.txt. |
 | Lab 6 | Claude (Anthropic) | Ran most of the lab on my machine under my supervision: started ping in both guests, ran the memory-pressure experiment in the Ubuntu guest over SSH (memhog.py, pressure.sh), collected htop / ps / /proc, the kernel OOM log and the Windows figures, took the Task Manager / Process Explorer / htop screenshots (via VirtualBox screenshot and keyboard input), and drafted README.md. I entered the sudo password myself; all figures and logs come from my own Ubuntu and Windows guests, and I re-checked the comparison table against the screenshots. |
+| Ticket 2 | Claude (Anthropic) | Collected and verified prices on shop.kz (product pages, 21.11.2026), took the page screenshots with headless Edge, drafted README.md, builds.md, budget.csv and the compatibility check. Role assumptions and decisions reviewed by me. |
