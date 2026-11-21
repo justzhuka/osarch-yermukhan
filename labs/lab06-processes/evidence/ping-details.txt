@@ -1,0 +1,27 @@
+$ ps -o pid,ppid,user,rss,vsz,nlwp,stat,lstart,cmd -p 1894,1891
+    PID    PPID USER       RSS    VSZ NLWP STAT                  STARTED CMD
+   1891    1890 tima      3956   7536    1 Ss+  Sat Nov 21 07:49:19 2026 bash /home/tima/lab06/htop-view.sh
+   1894    1891 tima      3120   8068    1 S+   Sat Nov 21 07:49:19 2026 ping 127.0.0.1
+
+$ pstree -sp 1894
+systemd(1)---tmux: server(1890)---bash(1891)---ping(1894)
+
+$ grep -E 'Name|^Pid|PPid|Threads|VmSize|VmRSS|RssAnon|RssFile|RssShmem|VmSwap' /proc/1894/status
+Name:	ping
+Pid:	1894
+PPid:	1891
+VmSize:	    8068 kB
+VmRSS:	    3120 kB
+RssAnon:	     164 kB
+RssFile:	    2956 kB
+RssShmem:	       0 kB
+VmSwap:	       0 kB
+Threads:	1
+
+$ ls /proc/1894/fd | wc -l
+0
+
+$ ls -l /proc/1894/fd
+
+$ cat /proc/1894/cmdline | tr '\0' ' '
+ping 127.0.0.1 

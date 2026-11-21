@@ -1,0 +1,119 @@
+$ journalctl -k --since "07:45" --no-pager | grep -i -E -B3 -A8 "out of memory|oom-kill"
+Nov 21 07:48:12 tima kernel: NET: Registered PF_QIPCRTR protocol family
+Nov 21 07:48:12 tima kernel: loop4: detected capacity change from 0 to 8
+Nov 21 07:48:33 tima systemd-journald[542]: File /var/log/journal/0843a1e3e240404a846e1ac1b3ea4600/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+Nov 21 07:50:24 tima kernel: python3 invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=0
+Nov 21 07:50:24 tima kernel: CPU: 0 UID: 1000 PID: 1979 Comm: python3 Not tainted 7.0.0-43-generic #43-Ubuntu PREEMPT(lazy) 
+Nov 21 07:50:24 tima kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 21 07:50:24 tima kernel: Call Trace:
+Nov 21 07:50:24 tima kernel:  <TASK>
+Nov 21 07:50:24 tima kernel:  show_stack+0x49/0x60
+Nov 21 07:50:24 tima kernel:  dump_stack_lvl+0x5f/0x90
+Nov 21 07:50:24 tima kernel:  dump_stack+0x10/0x18
+Nov 21 07:50:24 tima kernel:  dump_header+0x48/0x1c7
+--
+Nov 21 07:50:24 tima kernel: [   1970]  1000  1970     2084      678       32      646         0    61440       31             0 vmstat
+Nov 21 07:50:24 tima kernel: [   1979]  1000  1979   889462   353655   353044      611         0  7077888   520299             0 python3
+Nov 21 07:50:24 tima kernel: [   2135]  1000  2135     4028      978      306      672         0    81920        0             0 sleep
+Nov 21 07:50:24 tima kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/tmux-spawn-bcc662e7-7538-4609-ac5d-80e0af9cffbb.scope,task=python3,pid=1979,uid=1000
+Nov 21 07:50:24 tima kernel: Out of memory: Killed process 1979 (python3) total-vm:3557848kB, anon-rss:1412176kB, file-rss:2444kB, shmem-rss:0kB, UID:1000 pgtables:6912kB oom_score_adj:0
+Nov 21 07:50:26 tima systemd-journald[542]: Under memory pressure, flushing caches.
+Nov 21 07:59:43 tima kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 4 times, consider switching to WQ_UNBOUND
+Nov 21 07:59:43 tima kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 5 times, consider switching to WQ_UNBOUND
+Nov 21 07:59:47 tima kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 7 times, consider switching to WQ_UNBOUND
+Nov 21 07:59:49 tima kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 11 times, consider switching to WQ_UNBOUND
+Nov 21 08:00:08 tima kernel: python3 invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=0
+Nov 21 08:00:08 tima kernel: CPU: 0 UID: 1000 PID: 4191 Comm: python3 Not tainted 7.0.0-43-generic #43-Ubuntu PREEMPT(lazy) 
+Nov 21 08:00:08 tima kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 21 08:00:08 tima kernel: Call Trace:
+Nov 21 08:00:08 tima kernel:  <TASK>
+Nov 21 08:00:08 tima kernel:  show_stack+0x49/0x60
+Nov 21 08:00:08 tima kernel:  dump_stack_lvl+0x5f/0x90
+Nov 21 08:00:08 tima kernel:  dump_stack+0x10/0x18
+Nov 21 08:00:08 tima kernel:  dump_header+0x48/0x1c7
+--
+Nov 21 08:00:08 tima kernel: [   4191]  1000  4191   889462   356788   356183      605         0  7069696   516902             0 python3
+Nov 21 08:00:08 tima kernel: [   4465]  1000  4465     4028      970      306      664         0    77824        0             0 sleep
+Nov 21 08:00:08 tima kernel: [   4468]  1000  4468     3135      381       55      326         0    61440        0             0 tmux
+Nov 21 08:00:08 tima kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/tmux-spawn-e21aa955-234d-4de0-be2e-251ac12f18b6.scope,task=python3,pid=4191,uid=1000
+Nov 21 08:00:08 tima kernel: Out of memory: Killed process 4191 (python3) total-vm:3557848kB, anon-rss:1424732kB, file-rss:2420kB, shmem-rss:0kB, UID:1000 pgtables:6904kB oom_score_adj:0
+
+$ journalctl --since "07:45" --no-pager | grep -E "OOM killer|oom-kill|Failed with result"
+Nov 21 07:50:24 tima kernel: python3 invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=0
+Nov 21 07:50:24 tima systemd[1]: user@1000.service: The kernel OOM killer killed some processes in this unit.
+Nov 21 07:50:24 tima systemd[1772]: tmux-spawn-bcc662e7-7538-4609-ac5d-80e0af9cffbb.scope: The kernel OOM killer killed some processes in this unit.
+Nov 21 07:50:24 tima kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/tmux-spawn-bcc662e7-7538-4609-ac5d-80e0af9cffbb.scope,task=python3,pid=1979,uid=1000
+Nov 21 07:50:24 tima systemd[1772]: tmux-spawn-bcc662e7-7538-4609-ac5d-80e0af9cffbb.scope: Failed with result 'oom-kill'.
+Nov 21 08:00:08 tima kernel: python3 invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=0
+Nov 21 08:00:08 tima systemd[1]: user@1000.service: The kernel OOM killer killed some processes in this unit.
+Nov 21 08:00:08 tima systemd[1772]: tmux-spawn-e21aa955-234d-4de0-be2e-251ac12f18b6.scope: The kernel OOM killer killed some processes in this unit.
+Nov 21 08:00:08 tima kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/tmux-spawn-e21aa955-234d-4de0-be2e-251ac12f18b6.scope,task=python3,pid=4191,uid=1000
+Nov 21 08:00:08 tima systemd[1772]: tmux-spawn-e21aa955-234d-4de0-be2e-251ac12f18b6.scope: Failed with result 'oom-kill'.
+
+$ journalctl -k --since "07:45" --no-pager | grep -A40 "Mem-Info" | head -n 60   (run 2, the table of tasks the killer chose from)
+Nov 21 08:00:08 tima kernel: Mem-Info:
+Nov 21 08:00:08 tima kernel: active_anon:94675 inactive_anon:277780 isolated_anon:0
+                              active_file:48 inactive_file:689 isolated_file:0
+                              unevictable:2420 dirty:0 writeback:2
+                              slab_reclaimable:3267 slab_unreclaimable:11666
+                              mapped:1962 shmem:235 pagetables:2676
+                              sec_pagetables:0 bounce:0
+                              kernel_misc_reclaimable:0
+                              free:12841 free_pcp:125 free_cma:0
+Nov 21 08:00:08 tima kernel: Node 0 active_anon:378700kB inactive_anon:1111120kB active_file:192kB inactive_file:2588kB unevictable:9680kB isolated(anon):0kB isolated(file):0kB mapped:7848kB dirty:0kB writeback:8kB shmem:940kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:0kB kernel_stack:2592kB pagetables:10704kB sec_pagetables:0kB all_unreclaimable? yes Balloon:0kB gpu_active:19232kB gpu_reclaim:0kB
+Nov 21 08:00:08 tima kernel: Node 0 DMA free:6936kB boost:0kB min:428kB low:532kB high:636kB reserved_highatomic:0KB free_highatomic:0KB active_anon:892kB inactive_anon:7232kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB zspages:0kB present:15992kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+Nov 21 08:00:08 tima kernel: lowmem_reserve[]: 0 1627 1627 1627 1627
+Nov 21 08:00:08 tima kernel: Node 0 DMA32 free:44428kB boost:0kB min:44624kB low:55780kB high:66936kB reserved_highatomic:0KB free_highatomic:0KB active_anon:377808kB inactive_anon:1103888kB active_file:444kB inactive_file:2420kB unevictable:9680kB writepending:8kB zspages:0kB present:2080704kB managed:1666572kB mlocked:9680kB bounce:0kB free_pcp:500kB local_pcp:500kB free_cma:0kB
+Nov 21 08:00:08 tima kernel: lowmem_reserve[]: 0 0 0 0 0
+Nov 21 08:00:08 tima kernel: Node 0 DMA: 2*4kB (UM) 0*8kB 1*16kB (U) 0*32kB 2*64kB (UM) 1*128kB (U) 0*256kB 1*512kB (U) 0*1024kB 1*2048kB (M) 1*4096kB (M) = 6936kB
+Nov 21 08:00:08 tima kernel: Node 0 DMA32: 134*4kB (UE) 502*8kB (UE) 225*16kB (UE) 145*32kB (UE) 89*64kB (UME) 42*128kB (UME) 14*256kB (UME) 11*512kB (UME) 3*1024kB (UM) 0*2048kB 2*4096kB (M) = 44344kB
+Nov 21 08:00:08 tima kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Nov 21 08:00:08 tima kernel: 4034 total pagecache pages
+Nov 21 08:00:08 tima kernel: 1169 pages in swap cache
+Nov 21 08:00:08 tima kernel: Free swap  = 12kB
+Nov 21 08:00:08 tima kernel: Total swap = 2092028kB
+Nov 21 08:00:08 tima kernel: 524174 pages RAM
+Nov 21 08:00:08 tima kernel: 0 pages HighMem/MovableOnly
+Nov 21 08:00:08 tima kernel: 103691 pages reserved
+Nov 21 08:00:08 tima kernel: 0 pages cma reserved
+Nov 21 08:00:08 tima kernel: 0 pages hwpoisoned
+Nov 21 08:00:08 tima kernel: Memory cgroup min protection 0kB -- low protection 0kB
+Nov 21 08:00:08 tima kernel: Tasks state (memory values in pages):
+Nov 21 08:00:08 tima kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+Nov 21 08:00:08 tima kernel: [    542]     0   542    12631      799      108      689         2   114688      227          -250 systemd-journal
+Nov 21 08:00:08 tima kernel: [    575]     0   575    69873     2422      537     1885         0    81920        0         -1000 multipathd
+Nov 21 08:00:08 tima kernel: [    594]   990   594     5656     1301      641      660         0    90112        0             0 systemd-resolve
+Nov 21 08:00:08 tima kernel: [    600]     0   600    10002     1458      672      786         0   102400      551         -1000 systemd-udevd
+Nov 21 08:00:08 tima kernel: [    872]   998   872     5358     1296      389      907         0    86016        0             0 systemd-network
+Nov 21 08:00:08 tima kernel: [   1054]     0  1054      722      444        1      443         0    49152       29             0 chronyd-starter
+Nov 21 08:00:08 tima kernel: [   1055]     0  1055     1765      668       60      608         0    57344        0             0 cron
+Nov 21 08:00:08 tima kernel: [   1056]   996  1056     2248     1108      252      856         0    61440        0          -900 dbus-daemon
+Nov 21 08:00:08 tima kernel: [   1062]     0  1062    11686     4251     3405      846         0   126976      382             0 networkd-dispat
+Nov 21 08:00:08 tima kernel: [   1063]   988  1063    76612     1121      205      916         0    98304        0             0 polkitd
+Nov 21 08:00:08 tima kernel: [   1067]     0  1067   471598     2255     1732      523         0   274432     1624          -900 snapd
+Nov 21 08:00:08 tima kernel: [   1070]     0  1070     4656     1035      327      708         0    77824        8             0 systemd-logind
+Nov 21 08:00:08 tima kernel: [   1072]     0  1072   135886     1116      149      967         0   159744      475             0 udisksd
+Nov 21 08:00:08 tima kernel: [   1099]     0  1099     2686      831      293      538         0    61440        0         -1000 sshd
+Nov 21 08:00:08 tima kernel: [   1114]     0  1114     2122      654       47      607         0    53248        0             0 agetty
+Nov 21 08:00:08 tima kernel: [   1123]   101  1123    55137     1164      393      771         0    86016        0             0 rsyslogd
+Nov 21 08:00:08 tima kernel: [   1132]     0  1132    31529     4298     3400      898         0   151552      252             0 unattended-upgr
+Nov 21 08:00:08 tima kernel: [   1146]   989  1146     5965      773       56      717         0    77824      980             0 chronyd
+Nov 21 08:00:08 tima kernel: [   1161]     0  1161    99951     1425      564      861         0   131072        0             0 ModemManager
+Nov 21 08:00:08 tima kernel: [   1169]   989  1169     3024      362        8      354         0    69632      153             0 chronyd
+Nov 21 08:00:08 tima kernel: [   1772]  1000  1772     5628     1021      275      746         0    90112      349           100 systemd
+Nov 21 08:00:08 tima kernel: [   1774]  1000  1774     5753      241        1      240         0    81920      501           100 (sd-pam)
+Nov 21 08:00:08 tima kernel: [   1890]  1000  1890     5935      619      161      458         0    81920      117             0 tmux: server
+Nov 21 08:00:08 tima kernel: [   1891]  1000  1891     1884      491       17      474         0    57344       48             0 bash
+Nov 21 08:00:08 tima kernel: [   1893]  1000  1893     2139      932       85      847         0    61440        6           200 dbus-daemon
+Nov 21 08:00:08 tima kernel: [   1894]  1000  1894     2017      539       32      507         0    57344        9             0 ping
+Nov 21 08:00:08 tima kernel: [   1896]  1000  1896     2116      873      213      660         0    57344        0             0 htop
+Nov 21 08:00:08 tima kernel: [   4164]  1000  4164     1884      539       64      475         0    61440        0             0 bash
+Nov 21 08:00:08 tima kernel: [   4166]  1000  4166     1884      544       69      475         0    53248        0             0 bash
+Nov 21 08:00:08 tima kernel: [   4171]  1000  4171     1884      545       70      475         0    61440        0             0 bash
+Nov 21 08:00:08 tima kernel: [   4176]  1000  4176     2084      716       62      654         0    61440        0             0 vmstat
+Nov 21 08:00:08 tima kernel: [   4188]  1000  4188     1884      475        0      475         0    61440       64             0 bash
+Nov 21 08:00:08 tima kernel: [   4191]  1000  4191   889462   356788   356183      605         0  7069696   516902             0 python3
+Nov 21 08:00:08 tima kernel: [   4465]  1000  4465     4028      970      306      664         0    77824        0             0 sleep
+Nov 21 08:00:08 tima kernel: [   4468]  1000  4468     3135      381       55      326         0    61440        0             0 tmux
+Nov 21 08:00:08 tima kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/tmux-spawn-e21aa955-234d-4de0-be2e-251ac12f18b6.scope,task=python3,pid=4191,uid=1000
+Nov 21 08:00:08 tima kernel: Out of memory: Killed process 4191 (python3) total-vm:3557848kB, anon-rss:1424732kB, file-rss:2420kB, shmem-rss:0kB, UID:1000 pgtables:6904kB oom_score_adj:0

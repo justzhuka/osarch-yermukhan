@@ -1,0 +1,17 @@
+### captured 2026-11-21 07:49:23 UTC from htop 3.4.1 (tree view, filtered to ping and its parent: htop -t -p 1894,1891)
+
+    0[|                                                              0.7%] Tasks: 32, 31 thr, 96 kthr; 1 running
+    1[|||                                                            4.3%] Load average: 0.61 0.21 0.08
+  Mem[||||||||||||||||||||||||                                 221M/1.60G] Uptime: 00:01:09
+  Swp[                                                           0K/2.00G]
+
+  [Main] [I/O]
+    PID△   PPID USER        VIRT   RES   SHR S NLWP  CPU% MEM%   TIME+  Command
+   1891    1890 tima        7536  3956  3696 S    1   0.0  0.2  0:00.00    └─ bash /home/tima/lab06/htop-view.sh
+   1894    1891 tima        8068  3120  2956 S    1   0.0  0.2  0:00.00       ├─ ping 127.0.0.1
+
+
+
+
+
+F1Help  F2Setup F3SearchF4FilterF5List  F6SortByF7Nice -F8Nice +F9Kill  F10Quit
