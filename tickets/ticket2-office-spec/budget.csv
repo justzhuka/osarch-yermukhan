@@ -1,0 +1,46 @@
+role,component,model,price_kzt,source,date
+accountant,CPU,AMD Ryzen 5 5600GT AM4 OEM (6C/12T; Radeon Vega 7 iGPU),95990,https://shop.kz/offer/protsessor-amd-ryzen-5-5600gt-am4-oem/,2026-11-21
+accountant,Motherboard,MSI A520M PRO (AM4; mATX; 2x DDR4),33590,https://shop.kz/offer/materinskaya-plata-msi-a520m-pro-am4/,2026-11-21
+accountant,Memory,Hiksemi Armor DDR4-3200 16 GB (2x8 GB kit) HSC416U32D3,66990,https://shop.kz/offer/ddr-4-udimm-16-gb-3200-mhz-hiksemi-armor-2x-8-gb-kit-box-hsc416u32d3/,2026-11-21
+accountant,SSD,Kingston NV3 1 TB M.2 NVMe PCIe 4.0 (TLC),85990,https://shop.kz/offer/ssd-nakopitel-1-tb-kingston-nv3-m-2-pcie-4-0/,2026-11-21
+accountant,Case,DeepCool Matrexx 30 (mATX),16200,https://shop.kz/offer/korpus-deepcool-matrexx-30-black/,2026-11-21
+accountant,PSU,MSI MAG A500N-H 500 W 80 PLUS,14590,https://shop.kz/offer/blok-pitaniya-atx-500-w-msi-mag-a500n-h/,2026-11-21
+accountant,CPU cooler,DeepCool AG400,10990,https://shop.kz/offer/kuler-deepcool-ag400/,2026-11-21
+accountant,OS,Microsoft Windows 11 Professional 64-bit OEM (FQC-10548),102990,https://shop.kz/offer/microsoft-windows-11-professional-64-bit-dvd/,2026-11-21
+accountant,Monitor,Xiaomi A24i 2026 23.8in IPS 1920x1080,51790,https://shop.kz/offer/monitor-23-8-xiaomi-a24i-2026-black/,2026-11-21
+accountant,Keyboard+mouse,Logitech MK270 wireless set,14290,https://shop.kz/offer/klaviatura-logitech-mk270-black-usb-mysh/,2026-11-21
+accountant,UPS,FSP iFP 1000 (IEC; AVR),46990,https://shop.kz/offer/ups-fsp-ifp-1000-iec/,2026-11-21
+sales,CPU,AMD Ryzen 5 5600GT AM4 OEM (6C/12T; Radeon Vega 7 iGPU),95990,https://shop.kz/offer/protsessor-amd-ryzen-5-5600gt-am4-oem/,2026-11-21
+sales,Motherboard,MSI A520M PRO (AM4; mATX; 2x DDR4),33590,https://shop.kz/offer/materinskaya-plata-msi-a520m-pro-am4/,2026-11-21
+sales,Memory,AMD Radeon R9 Gamer DDR4-3200 32 GB (2x16 GB kit) R9S432G3206U2K,152990,https://shop.kz/offer/ddr-4-dimm-32-gb-3200-mhz-amd-radeon-r9-gamer-2x-16-gb-kit-box-r9s432g3206u2k/,2026-11-21
+sales,SSD,Kingston NV3 1 TB M.2 NVMe PCIe 4.0 (TLC),85990,https://shop.kz/offer/ssd-nakopitel-1-tb-kingston-nv3-m-2-pcie-4-0/,2026-11-21
+sales,Case,DeepCool Matrexx 30 (mATX),16200,https://shop.kz/offer/korpus-deepcool-matrexx-30-black/,2026-11-21
+sales,PSU,MSI MAG A500N-H 500 W 80 PLUS,14590,https://shop.kz/offer/blok-pitaniya-atx-500-w-msi-mag-a500n-h/,2026-11-21
+sales,CPU cooler,DeepCool AG400,10990,https://shop.kz/offer/kuler-deepcool-ag400/,2026-11-21
+sales,OS,Microsoft Windows 11 Professional 64-bit OEM (FQC-10548),102990,https://shop.kz/offer/microsoft-windows-11-professional-64-bit-dvd/,2026-11-21
+sales,Monitor,Xiaomi A24i 2026 23.8in IPS 1920x1080,51790,https://shop.kz/offer/monitor-23-8-xiaomi-a24i-2026-black/,2026-11-21
+sales,Keyboard+mouse,Logitech MK270 wireless set,14290,https://shop.kz/offer/klaviatura-logitech-mk270-black-usb-mysh/,2026-11-21
+sales,Headset,Jabra Evolve 20 MS Stereo USB/USB-C,26400,https://shop.kz/offer/garnitura-jabra-evolve-20-ms-stereo-usb-usb-c-black/,2026-11-21
+sales,Webcam,Logitech Brio 100 1080p,20890,https://shop.kz/offer/web-kamera-logitech-brio-100-graphite/,2026-11-21
+webdev,CPU,AMD Ryzen 7 5700G AM4 OEM (8C/16T; Radeon iGPU),115590,https://shop.kz/offer/protsessor-amd-ryzen-7-5700g-am4-oem/,2026-11-21
+webdev,Motherboard,MSI B550M PRO-VDH (AM4; mATX; 4x DDR4),49990,https://shop.kz/offer/materinskaya-plata-msi-b550m-pro-vdh-am4/,2026-11-21
+webdev,Memory,AMD Radeon R9 Gamer DDR4-3200 32 GB (2x16 GB kit) R9S432G3206U2K,152990,https://shop.kz/offer/ddr-4-dimm-32-gb-3200-mhz-amd-radeon-r9-gamer-2x-16-gb-kit-box-r9s432g3206u2k/,2026-11-21
+webdev,SSD,Kingston NV3 1 TB M.2 NVMe PCIe 4.0 (TLC),85990,https://shop.kz/offer/ssd-nakopitel-1-tb-kingston-nv3-m-2-pcie-4-0/,2026-11-21
+webdev,Case,DeepCool Matrexx 30 (mATX),16200,https://shop.kz/offer/korpus-deepcool-matrexx-30-black/,2026-11-21
+webdev,PSU,MSI MAG A500N-H 500 W 80 PLUS,14590,https://shop.kz/offer/blok-pitaniya-atx-500-w-msi-mag-a500n-h/,2026-11-21
+webdev,CPU cooler,DeepCool AG400,10990,https://shop.kz/offer/kuler-deepcool-ag400/,2026-11-21
+webdev,OS,Ubuntu Desktop 24.04 LTS (free; GPL / Canonical licence),0,https://ubuntu.com/download/desktop,2026-11-21
+webdev,Monitor 1,Xiaomi A24i 2026 23.8in IPS 1920x1080,51790,https://shop.kz/offer/monitor-23-8-xiaomi-a24i-2026-black/,2026-11-21
+webdev,Monitor 2,Xiaomi A24i 2026 23.8in IPS 1920x1080,51790,https://shop.kz/offer/monitor-23-8-xiaomi-a24i-2026-black/,2026-11-21
+webdev,Keyboard+mouse,Logitech MK270 wireless set,14290,https://shop.kz/offer/klaviatura-logitech-mk270-black-usb-mysh/,2026-11-21
+designer,CPU,AMD Ryzen 7 5700X AM4 OEM (8C/16T; 32 MB L3; no iGPU),82990,https://shop.kz/offer/protsessor-amd-ryzen-7-5700x-am4-oem/,2026-11-21
+designer,Motherboard,MSI B550M PRO-VDH (AM4; mATX; 4x DDR4),49990,https://shop.kz/offer/materinskaya-plata-msi-b550m-pro-vdh-am4/,2026-11-21
+designer,Memory,AMD Radeon R9 Gamer DDR4-3200 32 GB (2x16 GB kit) R9S432G3206U2K,152990,https://shop.kz/offer/ddr-4-dimm-32-gb-3200-mhz-amd-radeon-r9-gamer-2x-16-gb-kit-box-r9s432g3206u2k/,2026-11-21
+designer,SSD,Samsung 990 1 TB M.2 NVMe PCIe 4.0 (TLC),121600,https://shop.kz/offer/ssd-nakopitel-1-tb-samsung-990-m-2-pcie-4-0/,2026-11-21
+designer,GPU,Palit GeForce RTX 5050 StormX 8 GB,220990,https://shop.kz/offer/videokarta-palit-rtx-5050-stormx-8-gb-geforse-rtx-5050/,2026-11-21
+designer,Case,DeepCool Matrexx 30 (mATX),16200,https://shop.kz/offer/korpus-deepcool-matrexx-30-black/,2026-11-21
+designer,PSU,MSI MAG A650BN 650 W 80 PLUS Bronze,24590,https://shop.kz/offer/blok-pitaniya-atx-650-w-msi-mag-a650bn/,2026-11-21
+designer,CPU cooler,DeepCool AG400,10990,https://shop.kz/offer/kuler-deepcool-ag400/,2026-11-21
+designer,OS,Microsoft Windows 11 Professional 64-bit OEM (FQC-10548),102990,https://shop.kz/offer/microsoft-windows-11-professional-64-bit-dvd/,2026-11-21
+designer,Monitor,ASUS ProArt PA279CRV 27in IPS 3840x2160,359990,https://shop.kz/offer/monitor-27-asus-proart-pa279crv-black-silver/,2026-11-21
+designer,Keyboard+mouse,Logitech MK270 wireless set,14290,https://shop.kz/offer/klaviatura-logitech-mk270-black-usb-mysh/,2026-11-21
