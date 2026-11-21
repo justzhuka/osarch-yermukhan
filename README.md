@@ -10,6 +10,7 @@ Operating System Architecture labs, Innotech University · Temirlan Yermukhan
 | [Lab 2](labs/lab02-windows-vm/) | A Windows guest, and a network between them | submitted 01.11.2026 |
 | [Lab 3](labs/lab03-teardown/) | Teardown, and the same machine from the command line | submitted 08.11.2026 |
 | [Lab 5](labs/lab05-encoding/) | Encoding forensics | submitted 21.11.2026 |
+| [Lab 6](labs/lab06-processes/) | Live processes and memory pressure | submitted 21.11.2026 |
 
 ## Tickets
 
@@ -23,3 +24,4 @@ Operating System Architecture labs, Innotech University · Temirlan Yermukhan
 |---|---|---|
 | Ticket 1 | Claude (Anthropic) | Drafting the structure and wording of README.md and BUILD.md, suggesting PowerShell commands to collect evidence as text. All settings, measurements and evidence come from my own machines; every step was re-checked against my VirtualBox 7.2 screen. |
 | Lab 5 | Claude (Anthropic) | Suggesting diagnosis commands (file, xxd, iconv), writing fix.sh / fix.ps1 and the screenshot script, drafting README.md. The file, hex dumps, iconv results and all three screenshots come from my own machine and Ubuntu guest; the KZ-1048 diagnosis was checked against the bytes in hexdump-before.txt. |
+| Lab 6 | Claude (Anthropic) | Ran most of the lab on my machine under my supervision: started ping in both guests, ran the memory-pressure experiment in the Ubuntu guest over SSH (memhog.py, pressure.sh), collected htop / ps / /proc, the kernel OOM log and the Windows figures, took the Task Manager / Process Explorer / htop screenshots (via VirtualBox screenshot and keyboard input), and drafted README.md. I entered the sudo password myself; all figures and logs come from my own Ubuntu and Windows guests, and I re-checked the comparison table against the screenshots. |
